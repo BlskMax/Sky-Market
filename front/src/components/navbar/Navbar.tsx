@@ -55,7 +55,7 @@ function Navbar () {
 
             <div className= "flex flex-row align-middle mr-6 space-x-12">
 
-            {pathname !== '/home' || '/' && (
+            {pathname === '/home' || '/' && (
             <button type="button" onClick={() => router.push('/home')}>
             <p
                 className={`${bebas.variable} font-sans 
@@ -122,14 +122,14 @@ function Navbar () {
             </button> 
             )}
 
-        <button onClick={() => router.push('/mensajeUsuario')}>
+        {/* <button onClick={() => router.push('/mensajeUsuario')}>
         <p
                 className={`${bebas.variable} font-sans 
                 login hover:scale-105 cursor-pointer
                 text-4xl text-yellow-400 hover:text-pink-500  
                  transition-all custom-transition duration-500  `}
                  >MENSAJE OCULTO ({cartItems.length})</p>
-        </button>
+        </button> */}
         
         { pathname !== '/dashboard' && pathname !== '/checkout' && isLogged && (        
         <button type="button" onClick={() => router.push('/checkout')} className={styles.button}>
