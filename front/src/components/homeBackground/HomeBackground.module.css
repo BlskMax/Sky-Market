@@ -1,0 +1,12 @@
+.fondo {
+    background-image: url(../../../public//images/landBg3.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    background-size: 100vw;
+    display: table;
+
+
+    
+}
+

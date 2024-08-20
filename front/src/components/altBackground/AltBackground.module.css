@@ -1,0 +1,12 @@
+.fondo {
+    background-image: url(../../../public//images/landBg2.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    margin-top: 96px;
+    
+    display: table;
+    height: 100vh;
+    width: 100vw;
+
+}

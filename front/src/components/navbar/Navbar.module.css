@@ -1,0 +1,75 @@
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+
+}
+
+.bigContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98.5vw;
+    justify-content: space-between;
+    margin-bottom: .5em;
+    border-bottom: 2px solid rgba(206, 100, 0, 0.87) ;
+    padding: .5em;
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+
+}
+
+
+.logo {
+    width: auto;
+    height: 8vh;
+    margin-left: 1em;
+    transition: transform 300ms, box-shadow 300ms;
+}
+
+.logo:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+
+}
+
+.register {
+    width: auto;
+    height: 5vh;
+    transition: transform 200ms;
+    margin-right: 3em;
+}
+.login {
+    width: auto;
+    height: 5vh;
+    transition: transform 200ms;
+}
+.register:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.login:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.button {
+    
+}

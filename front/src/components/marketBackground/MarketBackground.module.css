@@ -1,0 +1,12 @@
+.fondo {
+    background-image: url(../../../public//images/bgImg3.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    margin-top: 96px;
+    
+    display: table;
+    height: 300vh;
+    width: 100vw;
+}
+

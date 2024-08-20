@@ -1,0 +1,15 @@
+.imageContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 85vh; 
+    width: 100vw; 
+}
+
+.logo {
+    width: 60vw; 
+    margin-top: 8em;
+    max-width: 100%; 
+    height: auto; 
+    
+}
